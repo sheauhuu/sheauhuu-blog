@@ -1,0 +1,25 @@
+baseURL = 'https://blog.sheauhuu.cc/'
+languageCode = 'zh-cn'
+title = "sheauhuu's blog"
+[params]
+    favicon="favicon.svg"
+[params.comments]
+    enabled = true
+    provider = "giscus"
+    [params.comments.giscus]
+        repo = "sheauhuu/sheauhuu-blog"
+        repoID = "R_kgDOLhd5jQ"
+        category = "Announcements"
+        categoryID = "DIC_kwDOLhd5jc4CeBz4"
+        mapping = "pathname"
+        strict = "0"
+        lightTheme = "noborder_light"
+        darkTheme = "noborder_gray"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom"
+        lang = "zh-CN"
+[params.sidebar.avatar]
+    enabled=true
+    local=true
+    src="img/avatar.jpg"
