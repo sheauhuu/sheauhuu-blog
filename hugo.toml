@@ -1,6 +1,6 @@
 baseURL = 'https://blog.sheauhuu.cc/'
 languageCode = 'zh-cn'
-title = "sheauhuu's blog"
+title = "sheauhuu blog"
 [params]
     favicon="favicon.svg"
 [params.comments]
@@ -14,7 +14,7 @@ title = "sheauhuu's blog"
         mapping = "pathname"
         strict = "0"
         lightTheme = "noborder_light"
-        darkTheme = "noborder_gray"
+        darkTheme = "noborder_dark"
         reactionsEnabled = "1"
         emitMetadata = "0"
         inputPosition = "bottom"
